@@ -8,7 +8,7 @@ function App() {
 
   const fetchMovies = async (filters = {}) => {
     try {
-      const res = await axios.post('http://localhost:5000/api/movies', filters);
+      const res = await axios.post('https://boltxgaming.com/movie/api/movies', filters);
       setMovies(res.data);
     } catch (err) {
       console.error('Failed to fetch movies:', err);
