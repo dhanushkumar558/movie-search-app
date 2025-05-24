@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Navbar from './Components/Navbar';
-import Filters from './Components/Filters';
+import Filters from './Components/Filters'; 
 
 function App() {
   const [movies, setMovies] = useState([]);
